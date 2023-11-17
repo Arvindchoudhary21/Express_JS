@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head.ejs') %>
+        <title>
+            <%= title %>
+        </title>
+</head>
+
+<body>
+    <!-- <a href="/">Home</a>
+    <a href="/about">about</a> -->
+    <!-- we can use this two lines by ejs -->
+    <%- include('../partials/nav.ejs') %>
+
+        <div class="container mt-4">
+            <h1>Welcome to home page...</h1>
+
+            <a href="/download">Download File</a>
+        </div>
+
+
+</body>
+
+</html>
